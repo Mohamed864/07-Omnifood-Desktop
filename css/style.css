@@ -119,6 +119,34 @@
 }
 
 /**************************************/
+/*FEATURED IN */ /*9*/
+/**************************************/
+.section-featured {
+  padding: 4.8rem 0 3.2rem 0; /*9*/
+}
+
+.heading-featured-in {
+  font-size: 1.4rem; /*9*/
+  text-transform: uppercase; /*9*/
+  letter-spacing: 0.75px; /*9*/
+  font-weight: 500; /*9*/
+  text-align: center; /*9*/
+  margin-bottom: 2.4rem; /*9*/
+  color: #888;
+}
+
+.logos {
+  display: flex; /*9*/
+  justify-content: space-around; /*9*/
+}
+
+.logos img {
+  height: 3.2rem; /*9*/
+  filter: brightness(0); /*9*/ /*change color of imgs to black*/
+  opacity: 50%; /*9*/ /*to make it grey 3n tree2 eny aft7ha shwya*/
+}
+
+/**************************************/
 /*HOW IT WORK SECTION*/ /*7*/
 /**************************************/
 
@@ -179,4 +207,112 @@
 
 .step-img {
   width: 35%; /*8*/
+}
+
+/**************************************/
+/*MEALS SECTION*/ /*10*/
+/**************************************/
+
+.section-meals {
+  padding: 9.6rem 0; /*10*/
+}
+
+.meal {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075); /*10*/
+  border-radius: 1.1rem; /*10*/
+  overflow: hidden; /*10*/ /*to make border appear from under the img*/
+  transition: all 0.4s; /*10*/
+}
+/*makes card of meal hover up*/
+.meal:hover {
+  transform: translateY(-1.2rem); /*10*/
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06); /*10*/
+}
+
+.meal-content {
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem; /*10*/
+}
+
+.meal-tags {
+  margin-bottom: 1.2rem; /*10*/
+  display: flex; /*10*/
+  gap: 0.4rem; /*10*/
+}
+
+.all-recipes {
+  text-align: center; /*10*/
+  font-size: 1.8rem; /*10*/
+}
+
+.tag {
+  display: inline-block; /*10*/
+  padding: 0.4rem 0.8rem; /*10*/
+  font-size: 1.2rem; /*10*/
+  text-transform: uppercase; /*10*/
+  color: #333; /*10*/
+  border-radius: 100px; /*10*/
+  font-weight: 600; /*10*/
+}
+
+.tag--vegetarian {
+  background-color: #51cf66; /*10*/
+}
+
+.tag--vegen {
+  background-color: #94d82d; /*10*/
+}
+
+.tag--paleo {
+  background-color: #ffd43b; /*10*/
+}
+
+.meal-title {
+  font-size: 2.4rem; /*10*/
+  color: #333; /*10*/
+  font-weight: 600; /*10*/
+  margin-bottom: 3.2rem; /*10*/
+}
+
+.meal-attributes {
+  list-style: none; /*10*/
+  display: flex; /*10*/
+  flex-direction: column; /*10*/ /*to make it easy to put space between lis*/
+  gap: 2rem; /*10*/
+}
+
+.meal-attribute {
+  font-size: 1.8rem; /*10*/
+  display: flex; /*10*/
+  align-items: center; /*10*/
+  gap: 1.6rem; /*10*/
+}
+
+.meal-icon {
+  height: 2.4rem; /*10*/
+  width: 2.4rem; /*10*/
+  color: #e67e22; /*10*/
+}
+
+.meal-img {
+  width: 100%; /*10*/
+}
+
+.list {
+  list-style: none; /*10*/
+  display: flex; /*10*/
+  flex-direction: column; /*10*/ /*to make it easy to put space between lis*/
+  gap: 1.6rem; /*10*/
+}
+
+.list-item {
+  font-size: 1.8rem; /*10*/
+  display: flex; /*10*/
+  align-items: center; /*10*/
+  gap: 1.6rem; /*10*/
+}
+
+.list-icon {
+  width: 3rem; /*10*/
+  height: 3rem; /*10*/
+  color: #e67e22; /*10*/
 }
