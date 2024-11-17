@@ -80,6 +80,10 @@ body {
   column-gap: 6.4rem; /*7*/
   grid-template-columns: repeat(2, 1fr); /*7*/
 }
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem; /*12*/
+}
 /*semi call to class to add some variation like 2cols*/
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr); /*7*/
@@ -188,6 +192,26 @@ body {
 .link:active {
   color: #cf711f;
   border-bottom: 1px solid transparent;
+}
+
+.list {
+  list-style: none; /*10*/
+  display: flex; /*10*/
+  flex-direction: column; /*10*/ /*to make it easy to put space between lis*/
+  gap: 1.6rem; /*10*/
+}
+
+.list-item {
+  font-size: 1.8rem; /*10*/
+  display: flex; /*10*/
+  align-items: center; /*10*/
+  gap: 1.6rem; /*10*/
+}
+
+.list-icon {
+  width: 3rem; /*10*/
+  height: 3rem; /*10*/
+  color: #e67e22; /*10*/
 }
 
 /*helper/settings class*/
