@@ -474,7 +474,7 @@
 /**************************************/
 
 .section-cta {
-  padding: 9.6rem 0; /*14*/
+  padding: 4.8rem 0 12.8rem 0; /*14*/
 }
 
 .cta {
@@ -553,4 +553,83 @@
   /*outline: 4px dotted #e67e22;*/ /*14*/
   /*outline-offset: 8px;*/ /*14*/
   box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5); /*14*/
+}
+
+/**************************************/
+/*FOOTER SECTION */ /*15*/
+/**************************************/
+
+.section-footer {
+  /*top right bot left*/
+  /*top horizonal left*/
+  padding: 12.8rem 0; /*15*/
+  border-top: 1px solid #eee; /*15*/
+}
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr; /*15*/
+}
+
+.logo-col {
+  display: flex; /*15*/ /*done here to make p push to down*/
+  flex-direction: column; /*15*/
+}
+
+.footer-logo {
+  display: block; /*15*/
+  margin-bottom: 3.2rem; /*15*/
+}
+
+.social-links {
+  list-style: none; /*15*/
+  display: flex; /*15*/
+  gap: 2.4rem; /*15*/
+}
+
+.social-icon {
+  height: 2.4rem; /*15*/
+  width: 2.4rem; /*15*/
+}
+
+.copyright {
+  font-size: 1.4rem; /*15*/
+  color: #767676; /*15*/
+  line-height: 1.6; /*15*/
+  margin-top: auto; /*15*/ /*done here to make p push to down*/
+}
+
+.footer-heading {
+  font-size: 1.8rem; /*15*/
+  font-weight: 500; /*15*/
+  margin-bottom: 4rem; /*15*/
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+.address {
+  margin-bottom: 2.4rem;
+}
+
+.footer-nav {
+  list-style: none; /*15*/
+  display: flex; /*15*/
+  flex-direction: column; /*15*/
+  gap: 2.4rem; /*15*/
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none; /*15*/
+  font-size: 1.6rem; /*15*/
+  color: #767676; /*15*/
+  transition: all 0.3s; /*15*/
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #555; /*15*/
 }

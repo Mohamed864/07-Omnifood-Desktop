@@ -108,6 +108,10 @@ body {
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr); /*7*/
 }
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr); /*7*/
+}
 /*centering grid item*/
 .grid--center-v {
   align-items: center; /*8*/
