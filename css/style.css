@@ -468,3 +468,89 @@
   font-size: 1.8rem; /*13*/
   line-height: 1.8; /*13*/
 }
+
+/**************************************/
+/*CTA SECTION */ /*14*/
+/**************************************/
+
+.section-cta {
+  padding: 9.6rem 0; /*14*/
+}
+
+.cta {
+  display: grid; /*14*/
+  grid-template-columns: 2fr 1fr; /*14*/
+  /* background-color: #e67e22; */ /*14*/
+  border-radius: 11px; /*14*/
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15); /*14*/
+  background-image: linear-gradient(90deg, #eb984e, #e67e22); /*14*/
+  overflow: hidden; /*14*/
+  /*temp*/
+}
+
+.cta-text-box {
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem; /*14*/
+  color: #452604; /*14*/
+}
+
+.cta-text {
+  font-size: 1.8rem; /*14*/
+  line-height: 1.8; /*14*/
+  margin-bottom: 4.8rem;
+}
+
+.cta .heading-secondary {
+  /*color: #452604;*/ /*14*/
+  color: inherit; /*14*/
+
+  margin-bottom: 3.2rem; /*14*/
+}
+
+.cta-img-box {
+  background-image: linear-gradient(
+      90deg,
+      rgba(235, 151, 78, 0.3),
+      rgba(230, 125, 34, 0.3)
+    ),
+    url("../img/eating.jpg"); /*14*/ /*transparent of img*/
+  background-size: cover; /*14*/
+  background-position: center; /*14*/ /*makes img centered while page shrink*/
+}
+
+.cta-form {
+  display: grid; /*14*/
+  grid-template-columns: 1fr 1fr; /*14*/
+  column-gap: 3.2rem; /*14*/
+  row-gap: 2.4rem; /*14*/
+}
+
+.cta-form label {
+  display: block; /*14*/
+  font-size: 1.6rem; /*14*/
+  font-weight: 500; /*14*/
+  margin-bottom: 1.2rem; /*14*/
+}
+
+.cta-form input,
+.cta-form select {
+  width: 100%; /*14*/
+  padding: 1.2rem; /*14*/
+  font-size: 1.8rem; /*14*/
+  font-family: inherit; /*14*/ /*inherit font family of body*/
+  color: inherit;
+  border: none; /*14*/
+  background-color: #fdf2d9; /*14*/
+  border-radius: 9px; /*14*/
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /*14*/
+}
+
+.cta-form input::placeholder {
+  color: #aaa;
+}
+
+.cta *:focus {
+  outline: none; /*14*/ /*remove border when i focus on any thing*/
+  /*outline: 4px dotted #e67e22;*/ /*14*/
+  /*outline-offset: 8px;*/ /*14*/
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5); /*14*/
+}
