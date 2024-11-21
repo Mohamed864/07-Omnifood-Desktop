@@ -69,6 +69,9 @@ html {
   /*Percentage pf user's browser font-size setting*/
   font-size: 62.5%; /*1*/
   overflow-x: hidden;
+
+  /*doesnt work on many browsers*/
+  /*scroll-behavior: smooth;*/ /*scroll bra7a*/
 }
 
 body {
